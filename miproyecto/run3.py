@@ -19,10 +19,10 @@ nota = int (input ("Ingrese nota 1: "))
 if nota >= 18:
 	print ("Usted esta aprobado (SOBRESALIENTE) con %d" % (nota))
 else:
-	if (nota >= 16) and (nota <18):
+	if (nota >= 16) and (nota < 18):
 		print ("Usted esta aprobado (MUY BUENA) con %d" % (nota))
 	else:
-		if (nota >= 13) and (nota <16):
+		if (nota >= 13) and (nota < 16):
 			print ("Usted esta aprobado (BUENA) con %d" % (nota))
 		else:
 			print ("%s con %d" % (mensaje2, nota))
